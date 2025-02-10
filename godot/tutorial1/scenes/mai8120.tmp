@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://c8u05iqgymj6b"]
+
+[ext_resource type="PackedScene" uid="uid://dknot47oaoa4o" path="res://scenes/floor.tscn" id="1_r7qc6"]
+[ext_resource type="PackedScene" uid="uid://co8v67waoi31b" path="res://scenes/player.tscn" id="2_h6r50"]
+[ext_resource type="PackedScene" uid="uid://kbejjw6io5s8" path="res://scenes/obstacle.tscn" id="3_8o76m"]
+
+[node name="main" type="Node"]
+
+[node name="Floor" parent="." instance=ExtResource("1_r7qc6")]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.300221, 0.523779, -0.797197, -0.0855372, 0.8176, 0.569397, 0.950027, 0.239135, -0.200658, -16.8157, 7.77956, 0)
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(-1, -1.51808e-08, 8.60946e-08, 3.08389e-08, 0.860244, 0.509882, -8.18028e-08, 0.509882, -0.860244, 0.145699, 5.03267, -104.151)
+
+[node name="Player" parent="." node_paths=PackedStringArray("camera") instance=ExtResource("2_h6r50")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.08315, -97.0006)
+camera = NodePath("../Camera3D")
+
+[node name="Obstacle" parent="." instance=ExtResource("3_8o76m")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 7.12027, -58.1022)

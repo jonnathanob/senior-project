@@ -1,0 +1,69 @@
+[gd_scene load_steps=9 format=3 uid="uid://kbejjw6io5s8"]
+
+[ext_resource type="Script" path="res://scripts/obstacle.gd" id="1_vwvos"]
+[ext_resource type="AudioStream" uid="uid://bny7w7j1rtqji" path="res://Assets/Sounds/Thump.mp3" id="2_ffkdp"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_glfaq"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pk6hm"]
+albedo_color = Color(0, 0, 0, 1)
+metallic = 1.0
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_hui3w"]
+size = Vector3(1.9989, 1, 1)
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_mf6rb"]
+lifetime_randomness = 0.5
+emission_shape = 3
+emission_box_extents = Vector3(3, 1, 2)
+angle_min = 1.07288e-05
+angle_max = 360.0
+direction = Vector3(1, 1, 1)
+spread = 88.373
+initial_velocity_min = 1.0
+initial_velocity_max = 3.0
+linear_accel_min = 0.999998
+linear_accel_max = 0.999998
+color = Color(0, 0, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pjypo"]
+albedo_color = Color(0.0105722, 0.0698478, 0.168027, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_w7kpp"]
+material = SubResource("StandardMaterial3D_pjypo")
+size = Vector3(0.2, 0.2, 0.2)
+
+[node name="Obstacle" type="RigidBody3D"]
+collision_layer = 2
+collision_mask = 7
+mass = 200.0
+contact_monitor = true
+max_contacts_reported = 1
+angular_damp_mode = 1
+angular_damp = 30.0
+script = ExtResource("1_vwvos")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+mesh = SubResource("BoxMesh_glfaq")
+surface_material_override/0 = SubResource("StandardMaterial3D_pk6hm")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00482178, 0, 0)
+shape = SubResource("BoxShape3D_hui3w")
+
+[node name="GPUParticles3D" type="GPUParticles3D" parent="."]
+transform = Transform3D(0.266151, 0, 0, 0, 0.0134456, 0, 0, 0, 0.0076358, -0.00905192, -0.288263, -0.57388)
+emitting = false
+amount = 20
+lifetime = 0.5
+one_shot = true
+explosiveness = 0.35
+randomness = 0.4
+process_material = SubResource("ParticleProcessMaterial_mf6rb")
+draw_pass_1 = SubResource("BoxMesh_w7kpp")
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="."]
+stream = ExtResource("2_ffkdp")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
