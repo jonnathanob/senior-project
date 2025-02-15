@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=3 uid="uid://bsletrehrhexe"]
+
+[ext_resource type="Script" path="res://player.gd" id="1_yysdw"]
+[ext_resource type="PackedScene" uid="uid://drc7tafj77ck2" path="res://cat_1.tscn" id="2_js5yg"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_hxrvo"]
+radius = 2.0
+height = 10.0
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_wgink"]
+
+[node name="Cat" type="CharacterBody3D"]
+script = ExtResource("1_yysdw")
+
+[node name="cat1" parent="." instance=ExtResource("2_js5yg")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(0.7, 0, 0, 0, -3.0598e-08, -0.7, 0, 0.7, -3.0598e-08, 0, 1, 0)
+shape = SubResource("CapsuleShape3D_hxrvo")
+
+[node name="CameraPivot" type="Node3D" parent="."]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5, -0.2)
+
+[node name="SpringArm3D" type="SpringArm3D" parent="CameraPivot"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0)
+shape = SubResource("SphereShape3D_wgink")
+spring_length = 8.0
+
+[node name="Camera3D" type="Camera3D" parent="CameraPivot/SpringArm3D"]
+unique_name_in_owner = true
+current = true

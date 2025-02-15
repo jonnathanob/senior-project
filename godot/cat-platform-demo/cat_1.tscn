@@ -1,0 +1,35 @@
+[gd_scene load_steps=3 format=3 uid="uid://drc7tafj77ck2"]
+
+[ext_resource type="PackedScene" uid="uid://b0e8fu7xtheck" path="res://cat1.blend" id="1_a0hyx"]
+[ext_resource type="Script" path="res://cat_1.gd" id="2_nrbne"]
+
+[node name="cat1" instance=ExtResource("1_a0hyx")]
+script = ExtResource("2_nrbne")
+
+[node name="Skeleton3D" parent="Armature" index="0"]
+bones/1/position = Vector3(0.0395049, 2.05545, -0.673515)
+bones/3/rotation = Quaternion(-0.0157749, 0.269781, 0.0145705, 0.962682)
+bones/6/rotation = Quaternion(-1.48547e-08, 0.982726, 0.178351, -0.0494119)
+bones/8/rotation = Quaternion(-1.48547e-08, 0.982726, 0.178351, -0.0494119)
+bones/13/rotation = Quaternion(0.782611, -0.170937, 0.184016, 0.569595)
+bones/14/rotation = Quaternion(-0.427625, 0.0107617, -0.0143203, 0.903779)
+bones/15/rotation = Quaternion(0.886376, -0.0937589, 0.212601, 0.400433)
+bones/16/rotation = Quaternion(-0.229649, -0.0112366, 0.00842218, 0.973172)
+bones/18/rotation = Quaternion(-0.393162, 0.00690495, -0.0818507, 0.915793)
+bones/19/rotation = Quaternion(-0.469201, -0.0340622, -0.00500213, 0.88242)
+bones/20/rotation = Quaternion(-0.567996, 0.0209555, 0.0561927, 0.820843)
+bones/21/rotation = Quaternion(-0.591499, 0.034906, 0.0129408, 0.805446)
+bones/29/position = Vector3(0.536531, -0.157639, 1.62995)
+bones/29/rotation = Quaternion(0.425259, -0.00123721, -0.000446148, 0.905071)
+bones/31/position = Vector3(0.741132, -0.197324, -2.3964)
+bones/31/rotation = Quaternion(0.425259, -0.00123721, -0.000446148, 0.905071)
+bones/33/position = Vector3(-0.541037, -0.15581, 0.478602)
+bones/33/rotation = Quaternion(0.425259, -0.00123721, -0.000446148, 0.905071)
+bones/35/position = Vector3(-0.734557, -0.194447, -1.52997)
+bones/35/rotation = Quaternion(0.425259, -0.00123721, -0.000446148, 0.905071)
+
+[node name="Eye" parent="Armature/Skeleton3D" index="0"]
+transform = Transform3D(-0.999943, -0.00915789, -0.00536313, 0.00940804, -0.998772, -0.0486411, -0.00491111, -0.0486887, 0.998802, 0.162041, 2.39849, 2.84469)
+
+[node name="Eye_001" parent="Armature/Skeleton3D" index="1"]
+transform = Transform3D(-0.999943, -0.00915809, -0.0053631, 0.00940825, -0.998772, -0.0486412, -0.00491106, -0.0486888, 0.998802, -0.180418, 2.40172, 2.84301)
