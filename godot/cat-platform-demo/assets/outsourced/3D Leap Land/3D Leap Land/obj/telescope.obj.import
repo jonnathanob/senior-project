@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d3ppuk4n2mgaq"
+path="res://.godot/imported/telescope.obj-d4071c16a32414415c2678caae5e58a3.mesh"
+
+[deps]
+
+files=["res://.godot/imported/telescope.obj-d4071c16a32414415c2678caae5e58a3.mesh"]
+
+source_file="res://assets/outsourced/3D Leap Land/3D Leap Land/obj/telescope.obj"
+dest_files=["res://.godot/imported/telescope.obj-d4071c16a32414415c2678caae5e58a3.mesh", "res://.godot/imported/telescope.obj-d4071c16a32414415c2678caae5e58a3.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

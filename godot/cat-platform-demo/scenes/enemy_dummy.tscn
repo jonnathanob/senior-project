@@ -1,0 +1,89 @@
+[gd_scene load_steps=12 format=3 uid="uid://dal6ucabrtd0c"]
+
+[ext_resource type="PackedScene" uid="uid://12k185drjpgg" path="res://health_component.tscn" id="1_fvlcp"]
+[ext_resource type="Script" path="res://scripts/enemy_dummy.gd" id="1_qfiq7"]
+[ext_resource type="PackedScene" uid="uid://tk01sr6lv53r" path="res://scenes/hitbox_component.tscn" id="2_mdoli"]
+[ext_resource type="PackedScene" uid="uid://dgvcfi1t66qal" path="res://scenes/health_bar.tscn" id="4_jnn4l"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_r0a56"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_n27b7"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_o4lm1"]
+height = 1.6
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_mtsvj"]
+radius = 0.6
+height = 1.8
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_yldhc"]
+size = Vector3(1, 0.6, 0.2)
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_xfy1n"]
+radius = 10.0
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_r2a2w"]
+size = Vector3(1, 1, 0.4)
+
+[node name="EnemyDummy" type="CharacterBody3D"]
+collision_layer = 2
+collision_mask = 5
+script = ExtResource("1_qfiq7")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.8, 0, 0, 0, 1, 0, 0, 0)
+mesh = SubResource("CapsuleMesh_r0a56")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.5, 0, 0, 0, 0.1, 0.1, 0.2, -0.5)
+mesh = SubResource("BoxMesh_n27b7")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("CapsuleShape3D_o4lm1")
+
+[node name="HealthComponent" parent="." instance=ExtResource("1_fvlcp")]
+max_health = 90
+
+[node name="NavigationAgent3D" type="NavigationAgent3D" parent="."]
+target_desired_distance = 2.0
+path_height_offset = 0.1
+
+[node name="HitboxComponent" parent="." node_paths=PackedStringArray("health_component") instance=ExtResource("2_mdoli")]
+collision_layer = 2
+health_component = NodePath("../HealthComponent")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="HitboxComponent"]
+shape = SubResource("CapsuleShape3D_mtsvj")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="HitboxComponent"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.1, 0.2, -0.499)
+shape = SubResource("BoxShape3D_yldhc")
+
+[node name="FollowArea" type="Area3D" parent="."]
+collision_layer = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="FollowArea"]
+shape = SubResource("SphereShape3D_xfy1n")
+
+[node name="HealthBar" parent="." node_paths=PackedStringArray("health_component") instance=ExtResource("4_jnn4l")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.6, 0)
+health_component = NodePath("../HealthComponent")
+
+[node name="attachhitbox" type="Area3D" parent="."]
+collision_layer = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="attachhitbox"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.6)
+shape = SubResource("BoxShape3D_r2a2w")
+
+[node name="AttackTimer" type="Timer" parent="."]
+one_shot = true
+
+[node name="MoveTimer" type="Timer" parent="."]
+autostart = true
+
+[connection signal="area_entered" from="FollowArea" to="." method="_on_follow_area_area_entered"]
+[connection signal="body_entered" from="FollowArea" to="." method="_on_follow_area_body_entered"]
+[connection signal="body_exited" from="FollowArea" to="." method="_on_follow_area_body_exited"]
+[connection signal="timeout" from="AttackTimer" to="." method="_on_timer_timeout"]
+[connection signal="timeout" from="MoveTimer" to="." method="_on_move_timer_timeout"]

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bkp74ktfya8e7"
+path="res://.godot/imported/Prop_Mushroom_1.obj-4fafd0f7b227d5dfcefeb13f6d153f5d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Prop_Mushroom_1.obj-4fafd0f7b227d5dfcefeb13f6d153f5d.mesh"]
+
+source_file="res://assets/outsourced/modular_platformer_models/Prop_Mushroom_1.obj"
+dest_files=["res://.godot/imported/Prop_Mushroom_1.obj-4fafd0f7b227d5dfcefeb13f6d153f5d.mesh", "res://.godot/imported/Prop_Mushroom_1.obj-4fafd0f7b227d5dfcefeb13f6d153f5d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

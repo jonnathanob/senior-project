@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bllxt5ec1muyy"
+path="res://.godot/imported/Grass_3.obj-6b0f8583813583763c90fe6da81e3419.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Grass_3.obj-6b0f8583813583763c90fe6da81e3419.mesh"]
+
+source_file="res://assets/outsourced/Ultimate Platformer Pack by Quaternius/Ultimate Platformer Pack - Dec 2021/Nature/OBJ/Grass_3.obj"
+dest_files=["res://.godot/imported/Grass_3.obj-6b0f8583813583763c90fe6da81e3419.mesh", "res://.godot/imported/Grass_3.obj-6b0f8583813583763c90fe6da81e3419.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dq26h5by12iyc"
+path="res://.godot/imported/ladder_2.obj-9178cb8c662e944626c80976b6dbf274.mesh"
+
+[deps]
+
+files=["res://.godot/imported/ladder_2.obj-9178cb8c662e944626c80976b6dbf274.mesh"]
+
+source_file="res://assets/outsourced/3D Leap Land/3D Leap Land/obj/ladder_2.obj"
+dest_files=["res://.godot/imported/ladder_2.obj-9178cb8c662e944626c80976b6dbf274.mesh", "res://.godot/imported/ladder_2.obj-9178cb8c662e944626c80976b6dbf274.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

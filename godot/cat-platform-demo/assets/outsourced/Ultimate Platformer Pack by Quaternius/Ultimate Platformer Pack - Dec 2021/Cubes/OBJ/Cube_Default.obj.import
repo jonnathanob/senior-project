@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ddv7r2w4a1rj8"
+path="res://.godot/imported/Cube_Default.obj-fd411c7539e75c8baa2eb04cd8e3f261.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Cube_Default.obj-fd411c7539e75c8baa2eb04cd8e3f261.mesh"]
+
+source_file="res://assets/outsourced/Ultimate Platformer Pack by Quaternius/Ultimate Platformer Pack - Dec 2021/Cubes/OBJ/Cube_Default.obj"
+dest_files=["res://.godot/imported/Cube_Default.obj-fd411c7539e75c8baa2eb04cd8e3f261.mesh", "res://.godot/imported/Cube_Default.obj-fd411c7539e75c8baa2eb04cd8e3f261.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

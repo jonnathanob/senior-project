@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b0uljbn1lmwfq"
+path="res://.godot/imported/Prop_Slide_Bot.obj-de8ed5d56142c8e6d6ddee357aff12e5.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Prop_Slide_Bot.obj-de8ed5d56142c8e6d6ddee357aff12e5.mesh"]
+
+source_file="res://assets/outsourced/modular_platformer_models/Prop_Slide_Bot.obj"
+dest_files=["res://.godot/imported/Prop_Slide_Bot.obj-de8ed5d56142c8e6d6ddee357aff12e5.mesh", "res://.godot/imported/Prop_Slide_Bot.obj-de8ed5d56142c8e6d6ddee357aff12e5.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

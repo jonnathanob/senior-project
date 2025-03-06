@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bu2t3myx5e5gn"
+path="res://.godot/imported/Terrain_Escarpment_Top_Corner_Inner.obj-6ef4b4c46a016545a20444cb82960016.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Terrain_Escarpment_Top_Corner_Inner.obj-6ef4b4c46a016545a20444cb82960016.mesh"]
+
+source_file="res://assets/outsourced/modular_platformer_models/Terrain_Escarpment_Top_Corner_Inner.obj"
+dest_files=["res://.godot/imported/Terrain_Escarpment_Top_Corner_Inner.obj-6ef4b4c46a016545a20444cb82960016.mesh", "res://.godot/imported/Terrain_Escarpment_Top_Corner_Inner.obj-6ef4b4c46a016545a20444cb82960016.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

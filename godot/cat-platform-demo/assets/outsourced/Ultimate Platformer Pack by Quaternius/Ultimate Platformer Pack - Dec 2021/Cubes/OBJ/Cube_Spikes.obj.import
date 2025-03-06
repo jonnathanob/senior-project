@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cfvfqhcmh50l3"
+path="res://.godot/imported/Cube_Spikes.obj-a6ceb0796535db6f0c9e89bffccf2a1f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Cube_Spikes.obj-a6ceb0796535db6f0c9e89bffccf2a1f.mesh"]
+
+source_file="res://assets/outsourced/Ultimate Platformer Pack by Quaternius/Ultimate Platformer Pack - Dec 2021/Cubes/OBJ/Cube_Spikes.obj"
+dest_files=["res://.godot/imported/Cube_Spikes.obj-a6ceb0796535db6f0c9e89bffccf2a1f.mesh", "res://.godot/imported/Cube_Spikes.obj-a6ceb0796535db6f0c9e89bffccf2a1f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

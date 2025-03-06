@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dkqrhymgskwid"
+path="res://.godot/imported/Coin.obj-4f32ee538c6ca51a703adc3de384c29a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Coin.obj-4f32ee538c6ca51a703adc3de384c29a.mesh"]
+
+source_file="res://assets/outsourced/Ultimate Platformer Pack by Quaternius/Ultimate Platformer Pack - Dec 2021/Powerups and Pickups/OBJ/Coin.obj"
+dest_files=["res://.godot/imported/Coin.obj-4f32ee538c6ca51a703adc3de384c29a.mesh", "res://.godot/imported/Coin.obj-4f32ee538c6ca51a703adc3de384c29a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

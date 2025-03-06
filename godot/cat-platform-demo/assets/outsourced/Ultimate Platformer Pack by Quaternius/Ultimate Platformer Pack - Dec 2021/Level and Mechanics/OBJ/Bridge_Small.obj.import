@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://clgrnwkwbntdb"
+path="res://.godot/imported/Bridge_Small.obj-9342eac23f863619132dd24f02c42214.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Bridge_Small.obj-9342eac23f863619132dd24f02c42214.mesh"]
+
+source_file="res://assets/outsourced/Ultimate Platformer Pack by Quaternius/Ultimate Platformer Pack - Dec 2021/Level and Mechanics/OBJ/Bridge_Small.obj"
+dest_files=["res://.godot/imported/Bridge_Small.obj-9342eac23f863619132dd24f02c42214.mesh", "res://.godot/imported/Bridge_Small.obj-9342eac23f863619132dd24f02c42214.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dg1t6q313tl2q"
+path="res://.godot/imported/tree_2.obj-43e7c9975fa02e6e962b9453eca4e411.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tree_2.obj-43e7c9975fa02e6e962b9453eca4e411.mesh"]
+
+source_file="res://assets/outsourced/3D Leap Land/3D Leap Land/obj/tree_2.obj"
+dest_files=["res://.godot/imported/tree_2.obj-43e7c9975fa02e6e962b9453eca4e411.mesh", "res://.godot/imported/tree_2.obj-43e7c9975fa02e6e962b9453eca4e411.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

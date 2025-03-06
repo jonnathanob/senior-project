@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c8fad75d4crrv"
+path="res://.godot/imported/bridge_2.obj-f720bc00236903ffae6b5cce9f49f375.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bridge_2.obj-f720bc00236903ffae6b5cce9f49f375.mesh"]
+
+source_file="res://assets/outsourced/3D Leap Land/3D Leap Land/obj/bridge_2.obj"
+dest_files=["res://.godot/imported/bridge_2.obj-f720bc00236903ffae6b5cce9f49f375.mesh", "res://.godot/imported/bridge_2.obj-f720bc00236903ffae6b5cce9f49f375.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

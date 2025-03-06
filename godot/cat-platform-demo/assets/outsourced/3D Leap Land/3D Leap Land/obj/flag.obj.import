@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://u35425na0byf"
+path="res://.godot/imported/flag.obj-0605bb468151ca7bce58dd81f9b0861b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/flag.obj-0605bb468151ca7bce58dd81f9b0861b.mesh"]
+
+source_file="res://assets/outsourced/3D Leap Land/3D Leap Land/obj/flag.obj"
+dest_files=["res://.godot/imported/flag.obj-0605bb468151ca7bce58dd81f9b0861b.mesh", "res://.godot/imported/flag.obj-0605bb468151ca7bce58dd81f9b0861b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

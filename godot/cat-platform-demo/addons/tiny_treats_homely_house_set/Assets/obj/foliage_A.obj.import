@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b7l7ledynk5sc"
+path="res://.godot/imported/foliage_A.obj-fc23e0a5da880f0da9bb5ad0f035244a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/foliage_A.obj-fc23e0a5da880f0da9bb5ad0f035244a.mesh"]
+
+source_file="res://addons/tiny_treats_homely_house_set/Assets/obj/foliage_A.obj"
+dest_files=["res://.godot/imported/foliage_A.obj-fc23e0a5da880f0da9bb5ad0f035244a.mesh", "res://.godot/imported/foliage_A.obj-fc23e0a5da880f0da9bb5ad0f035244a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

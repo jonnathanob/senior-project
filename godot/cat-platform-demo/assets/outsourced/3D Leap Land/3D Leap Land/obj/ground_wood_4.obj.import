@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dngppsek8k1bo"
+path="res://.godot/imported/ground_wood_4.obj-e041f5a0e23c955abcb77978f1c76764.mesh"
+
+[deps]
+
+files=["res://.godot/imported/ground_wood_4.obj-e041f5a0e23c955abcb77978f1c76764.mesh"]
+
+source_file="res://assets/outsourced/3D Leap Land/3D Leap Land/obj/ground_wood_4.obj"
+dest_files=["res://.godot/imported/ground_wood_4.obj-e041f5a0e23c955abcb77978f1c76764.mesh", "res://.godot/imported/ground_wood_4.obj-e041f5a0e23c955abcb77978f1c76764.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

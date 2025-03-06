@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cu06q5gfmky4k"
+path="res://.godot/imported/Pipe_T.obj-4027290942f9ca6bd98658126f00b808.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Pipe_T.obj-4027290942f9ca6bd98658126f00b808.mesh"]
+
+source_file="res://assets/outsourced/Ultimate Platformer Pack by Quaternius/Ultimate Platformer Pack - Dec 2021/Level and Mechanics/OBJ/Pipe_T.obj"
+dest_files=["res://.godot/imported/Pipe_T.obj-4027290942f9ca6bd98658126f00b808.mesh", "res://.godot/imported/Pipe_T.obj-4027290942f9ca6bd98658126f00b808.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cdu3bku7dvs2a"
+path="res://.godot/imported/fence_1.obj-8154e848ecbd711747e4ee04285927e6.mesh"
+
+[deps]
+
+files=["res://.godot/imported/fence_1.obj-8154e848ecbd711747e4ee04285927e6.mesh"]
+
+source_file="res://assets/outsourced/3D Leap Land/3D Leap Land/obj/fence_1.obj"
+dest_files=["res://.godot/imported/fence_1.obj-8154e848ecbd711747e4ee04285927e6.mesh", "res://.godot/imported/fence_1.obj-8154e848ecbd711747e4ee04285927e6.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

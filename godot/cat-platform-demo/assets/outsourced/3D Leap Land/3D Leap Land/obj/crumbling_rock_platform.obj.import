@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b81bmn57s61gm"
+path="res://.godot/imported/crumbling_rock_platform.obj-6dd6b89898f780e08cc68913f666570b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/crumbling_rock_platform.obj-6dd6b89898f780e08cc68913f666570b.mesh"]
+
+source_file="res://assets/outsourced/3D Leap Land/3D Leap Land/obj/crumbling_rock_platform.obj"
+dest_files=["res://.godot/imported/crumbling_rock_platform.obj-6dd6b89898f780e08cc68913f666570b.mesh", "res://.godot/imported/crumbling_rock_platform.obj-6dd6b89898f780e08cc68913f666570b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

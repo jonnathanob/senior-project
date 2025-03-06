@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://clnthdupmf38f"
+path="res://.godot/imported/Terrain_Escarpment_Mine_Inner.obj-09006e334e1bb7f0c0306a57c345471e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Terrain_Escarpment_Mine_Inner.obj-09006e334e1bb7f0c0306a57c345471e.mesh"]
+
+source_file="res://assets/outsourced/modular_platformer_models/Terrain_Escarpment_Mine_Inner.obj"
+dest_files=["res://.godot/imported/Terrain_Escarpment_Mine_Inner.obj-09006e334e1bb7f0c0306a57c345471e.mesh", "res://.godot/imported/Terrain_Escarpment_Mine_Inner.obj-09006e334e1bb7f0c0306a57c345471e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

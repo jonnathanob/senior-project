@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://fb3e0r1yumsr"
+path="res://.godot/imported/Numbers_4.obj-16276acc307c0976b6c45ce184912f2e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Numbers_4.obj-16276acc307c0976b6c45ce184912f2e.mesh"]
+
+source_file="res://assets/outsourced/Ultimate Platformer Pack by Quaternius/Ultimate Platformer Pack - Dec 2021/Level and Mechanics/OBJ/Numbers_4.obj"
+dest_files=["res://.godot/imported/Numbers_4.obj-16276acc307c0976b6c45ce184912f2e.mesh", "res://.godot/imported/Numbers_4.obj-16276acc307c0976b6c45ce184912f2e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

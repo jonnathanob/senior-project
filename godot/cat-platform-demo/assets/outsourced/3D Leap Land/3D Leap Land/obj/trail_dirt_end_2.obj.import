@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dgxnyj6ysg6nl"
+path="res://.godot/imported/trail_dirt_end_2.obj-9c3b44598473fe8673f82a1e0beb2bee.mesh"
+
+[deps]
+
+files=["res://.godot/imported/trail_dirt_end_2.obj-9c3b44598473fe8673f82a1e0beb2bee.mesh"]
+
+source_file="res://assets/outsourced/3D Leap Land/3D Leap Land/obj/trail_dirt_end_2.obj"
+dest_files=["res://.godot/imported/trail_dirt_end_2.obj-9c3b44598473fe8673f82a1e0beb2bee.mesh", "res://.godot/imported/trail_dirt_end_2.obj-9c3b44598473fe8673f82a1e0beb2bee.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

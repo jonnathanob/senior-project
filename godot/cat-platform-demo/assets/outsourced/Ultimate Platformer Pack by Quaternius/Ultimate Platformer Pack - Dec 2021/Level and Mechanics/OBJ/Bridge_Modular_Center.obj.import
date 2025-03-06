@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bp2un26mkt7jg"
+path="res://.godot/imported/Bridge_Modular_Center.obj-3e3939f6ebf4c9a35706cf9b03489469.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Bridge_Modular_Center.obj-3e3939f6ebf4c9a35706cf9b03489469.mesh"]
+
+source_file="res://assets/outsourced/Ultimate Platformer Pack by Quaternius/Ultimate Platformer Pack - Dec 2021/Level and Mechanics/OBJ/Bridge_Modular_Center.obj"
+dest_files=["res://.godot/imported/Bridge_Modular_Center.obj-3e3939f6ebf4c9a35706cf9b03489469.mesh", "res://.godot/imported/Bridge_Modular_Center.obj-3e3939f6ebf4c9a35706cf9b03489469.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

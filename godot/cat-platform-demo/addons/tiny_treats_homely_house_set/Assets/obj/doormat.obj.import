@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d1g60tx1i6rry"
+path="res://.godot/imported/doormat.obj-f00b0c675c3973efb33976d46c33e699.mesh"
+
+[deps]
+
+files=["res://.godot/imported/doormat.obj-f00b0c675c3973efb33976d46c33e699.mesh"]
+
+source_file="res://addons/tiny_treats_homely_house_set/Assets/obj/doormat.obj"
+dest_files=["res://.godot/imported/doormat.obj-f00b0c675c3973efb33976d46c33e699.mesh", "res://.godot/imported/doormat.obj-f00b0c675c3973efb33976d46c33e699.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

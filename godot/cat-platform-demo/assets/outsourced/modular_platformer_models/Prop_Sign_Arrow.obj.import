@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dslccio3ktavx"
+path="res://.godot/imported/Prop_Sign_Arrow.obj-20b128d913f17c97096be684a3827245.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Prop_Sign_Arrow.obj-20b128d913f17c97096be684a3827245.mesh"]
+
+source_file="res://assets/outsourced/modular_platformer_models/Prop_Sign_Arrow.obj"
+dest_files=["res://.godot/imported/Prop_Sign_Arrow.obj-20b128d913f17c97096be684a3827245.mesh", "res://.godot/imported/Prop_Sign_Arrow.obj-20b128d913f17c97096be684a3827245.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

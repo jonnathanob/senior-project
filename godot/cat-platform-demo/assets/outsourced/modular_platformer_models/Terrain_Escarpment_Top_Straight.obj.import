@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://belit1wq7udtk"
+path="res://.godot/imported/Terrain_Escarpment_Top_Straight.obj-128f4071d01093fc39c0d31e38e671a2.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Terrain_Escarpment_Top_Straight.obj-128f4071d01093fc39c0d31e38e671a2.mesh"]
+
+source_file="res://assets/outsourced/modular_platformer_models/Terrain_Escarpment_Top_Straight.obj"
+dest_files=["res://.godot/imported/Terrain_Escarpment_Top_Straight.obj-128f4071d01093fc39c0d31e38e671a2.mesh", "res://.godot/imported/Terrain_Escarpment_Top_Straight.obj-128f4071d01093fc39c0d31e38e671a2.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

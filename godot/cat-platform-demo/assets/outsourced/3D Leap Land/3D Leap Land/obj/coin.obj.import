@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bqxrq4p4266jq"
+path="res://.godot/imported/coin.obj-89727d72a88d8b8056ddf8bafd7189b2.mesh"
+
+[deps]
+
+files=["res://.godot/imported/coin.obj-89727d72a88d8b8056ddf8bafd7189b2.mesh"]
+
+source_file="res://assets/outsourced/3D Leap Land/3D Leap Land/obj/coin.obj"
+dest_files=["res://.godot/imported/coin.obj-89727d72a88d8b8056ddf8bafd7189b2.mesh", "res://.godot/imported/coin.obj-89727d72a88d8b8056ddf8bafd7189b2.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://db521kj3wp8el"
+path="res://.godot/imported/RockPlatforms_Medium.obj-5f91f3e3a66092f4f5908be8aaae8b84.mesh"
+
+[deps]
+
+files=["res://.godot/imported/RockPlatforms_Medium.obj-5f91f3e3a66092f4f5908be8aaae8b84.mesh"]
+
+source_file="res://assets/outsourced/Ultimate Platformer Pack by Quaternius/Ultimate Platformer Pack - Dec 2021/Nature/OBJ/RockPlatforms_Medium.obj"
+dest_files=["res://.godot/imported/RockPlatforms_Medium.obj-5f91f3e3a66092f4f5908be8aaae8b84.mesh", "res://.godot/imported/RockPlatforms_Medium.obj-5f91f3e3a66092f4f5908be8aaae8b84.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

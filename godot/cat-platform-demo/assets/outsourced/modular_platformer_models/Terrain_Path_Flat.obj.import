@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b2rxvvwagdtjd"
+path="res://.godot/imported/Terrain_Path_Flat.obj-49eea77c5b488d33f8f3bfde4fb5767c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Terrain_Path_Flat.obj-49eea77c5b488d33f8f3bfde4fb5767c.mesh"]
+
+source_file="res://assets/outsourced/modular_platformer_models/Terrain_Path_Flat.obj"
+dest_files=["res://.godot/imported/Terrain_Path_Flat.obj-49eea77c5b488d33f8f3bfde4fb5767c.mesh", "res://.godot/imported/Terrain_Path_Flat.obj-49eea77c5b488d33f8f3bfde4fb5767c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

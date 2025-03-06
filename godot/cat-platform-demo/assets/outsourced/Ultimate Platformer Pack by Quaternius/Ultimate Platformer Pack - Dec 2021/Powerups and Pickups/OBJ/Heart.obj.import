@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cr6ffuavci51e"
+path="res://.godot/imported/Heart.obj-af801f116c2cd7245de276e4bfec20a1.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Heart.obj-af801f116c2cd7245de276e4bfec20a1.mesh"]
+
+source_file="res://assets/outsourced/Ultimate Platformer Pack by Quaternius/Ultimate Platformer Pack - Dec 2021/Powerups and Pickups/OBJ/Heart.obj"
+dest_files=["res://.godot/imported/Heart.obj-af801f116c2cd7245de276e4bfec20a1.mesh", "res://.godot/imported/Heart.obj-af801f116c2cd7245de276e4bfec20a1.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

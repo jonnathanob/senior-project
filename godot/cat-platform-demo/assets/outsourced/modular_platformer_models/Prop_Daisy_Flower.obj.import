@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c781vnjjdprqf"
+path="res://.godot/imported/Prop_Daisy_Flower.obj-c97b095f5ddb0eb8ccb6fad32c91a0d7.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Prop_Daisy_Flower.obj-c97b095f5ddb0eb8ccb6fad32c91a0d7.mesh"]
+
+source_file="res://assets/outsourced/modular_platformer_models/Prop_Daisy_Flower.obj"
+dest_files=["res://.godot/imported/Prop_Daisy_Flower.obj-c97b095f5ddb0eb8ccb6fad32c91a0d7.mesh", "res://.godot/imported/Prop_Daisy_Flower.obj-c97b095f5ddb0eb8ccb6fad32c91a0d7.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

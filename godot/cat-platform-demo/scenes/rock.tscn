@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://rvllnf42fkux"]
+
+[ext_resource type="ArrayMesh" uid="uid://cb2an12ka4mod" path="res://assets/rock.obj" id="1_vixe8"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_a8owk"]
+radius = 0.4
+
+[node name="Rock" type="StaticBody3D"]
+collision_layer = 4
+collision_mask = 3
+
+[node name="Rock" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_vixe8")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("SphereShape3D_a8owk")

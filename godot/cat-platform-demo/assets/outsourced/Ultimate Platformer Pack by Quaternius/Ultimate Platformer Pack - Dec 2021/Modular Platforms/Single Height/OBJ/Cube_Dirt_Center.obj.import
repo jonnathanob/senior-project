@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cy5ybakpbg56v"
+path="res://.godot/imported/Cube_Dirt_Center.obj-07f4c82dc54089c9922298c3967e30c8.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Cube_Dirt_Center.obj-07f4c82dc54089c9922298c3967e30c8.mesh"]
+
+source_file="res://assets/outsourced/Ultimate Platformer Pack by Quaternius/Ultimate Platformer Pack - Dec 2021/Modular Platforms/Single Height/OBJ/Cube_Dirt_Center.obj"
+dest_files=["res://.godot/imported/Cube_Dirt_Center.obj-07f4c82dc54089c9922298c3967e30c8.mesh", "res://.godot/imported/Cube_Dirt_Center.obj-07f4c82dc54089c9922298c3967e30c8.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

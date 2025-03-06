@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ci5xnat2hnw4o"
+path="res://.godot/imported/balloon_yellow.obj-45d93727eef34f3ff5bb44ae32826d6b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/balloon_yellow.obj-45d93727eef34f3ff5bb44ae32826d6b.mesh"]
+
+source_file="res://assets/outsourced/3D Leap Land/3D Leap Land/obj/balloon_yellow.obj"
+dest_files=["res://.godot/imported/balloon_yellow.obj-45d93727eef34f3ff5bb44ae32826d6b.mesh", "res://.godot/imported/balloon_yellow.obj-45d93727eef34f3ff5bb44ae32826d6b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

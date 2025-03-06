@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c0eklyw3qvvpj"
+path="res://.godot/imported/Cannon.obj-526becd06659cccad84a190bc7d4f98b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Cannon.obj-526becd06659cccad84a190bc7d4f98b.mesh"]
+
+source_file="res://assets/outsourced/Ultimate Platformer Pack by Quaternius/Ultimate Platformer Pack - Dec 2021/Level and Mechanics/OBJ/Cannon.obj"
+dest_files=["res://.godot/imported/Cannon.obj-526becd06659cccad84a190bc7d4f98b.mesh", "res://.godot/imported/Cannon.obj-526becd06659cccad84a190bc7d4f98b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

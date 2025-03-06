@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://nggbsxsgtyje"
+path="res://.godot/imported/Cube_Question.obj-90d49f3221f2d56dd7cbe763ceb4684d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Cube_Question.obj-90d49f3221f2d56dd7cbe763ceb4684d.mesh"]
+
+source_file="res://assets/outsourced/Ultimate Platformer Pack by Quaternius/Ultimate Platformer Pack - Dec 2021/Cubes/OBJ/Cube_Question.obj"
+dest_files=["res://.godot/imported/Cube_Question.obj-90d49f3221f2d56dd7cbe763ceb4684d.mesh", "res://.godot/imported/Cube_Question.obj-90d49f3221f2d56dd7cbe763ceb4684d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

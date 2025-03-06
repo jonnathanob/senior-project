@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ccey4hl4pprdv"
+path="res://.godot/imported/Bush_Fruit.obj-fa905b6b3265f87718420c96e6cc45dc.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Bush_Fruit.obj-fa905b6b3265f87718420c96e6cc45dc.mesh"]
+
+source_file="res://assets/outsourced/Ultimate Platformer Pack by Quaternius/Ultimate Platformer Pack - Dec 2021/Nature/OBJ/Bush_Fruit.obj"
+dest_files=["res://.godot/imported/Bush_Fruit.obj-fa905b6b3265f87718420c96e6cc45dc.mesh", "res://.godot/imported/Bush_Fruit.obj-fa905b6b3265f87718420c96e6cc45dc.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

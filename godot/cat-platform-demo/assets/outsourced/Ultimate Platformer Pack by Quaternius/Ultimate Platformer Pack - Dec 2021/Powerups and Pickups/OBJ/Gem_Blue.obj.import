@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cx4jw7jsqkt2d"
+path="res://.godot/imported/Gem_Blue.obj-ead2ef646a685142e3297c2538ccdab3.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Gem_Blue.obj-ead2ef646a685142e3297c2538ccdab3.mesh"]
+
+source_file="res://assets/outsourced/Ultimate Platformer Pack by Quaternius/Ultimate Platformer Pack - Dec 2021/Powerups and Pickups/OBJ/Gem_Blue.obj"
+dest_files=["res://.godot/imported/Gem_Blue.obj-ead2ef646a685142e3297c2538ccdab3.mesh", "res://.godot/imported/Gem_Blue.obj-ead2ef646a685142e3297c2538ccdab3.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dx3uaw862vb0x"
+path="res://.godot/imported/Bomb.obj-73d91a696d518a8e245aca980bf0a6cf.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Bomb.obj-73d91a696d518a8e245aca980bf0a6cf.mesh"]
+
+source_file="res://assets/outsourced/Ultimate Platformer Pack by Quaternius/Ultimate Platformer Pack - Dec 2021/Level and Mechanics/OBJ/Bomb.obj"
+dest_files=["res://.godot/imported/Bomb.obj-73d91a696d518a8e245aca980bf0a6cf.mesh", "res://.godot/imported/Bomb.obj-73d91a696d518a8e245aca980bf0a6cf.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

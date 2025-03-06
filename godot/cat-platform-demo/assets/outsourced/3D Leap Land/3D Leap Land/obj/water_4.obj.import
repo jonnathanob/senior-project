@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://voq2bq24qy28"
+path="res://.godot/imported/water_4.obj-96505b7865ff0a0f4daeac81d85ca894.mesh"
+
+[deps]
+
+files=["res://.godot/imported/water_4.obj-96505b7865ff0a0f4daeac81d85ca894.mesh"]
+
+source_file="res://assets/outsourced/3D Leap Land/3D Leap Land/obj/water_4.obj"
+dest_files=["res://.godot/imported/water_4.obj-96505b7865ff0a0f4daeac81d85ca894.mesh", "res://.godot/imported/water_4.obj-96505b7865ff0a0f4daeac81d85ca894.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

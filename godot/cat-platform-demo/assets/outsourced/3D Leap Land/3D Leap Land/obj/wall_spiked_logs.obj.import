@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dbysciydpx3vu"
+path="res://.godot/imported/wall_spiked_logs.obj-a40cc9ffc0b1a7b9973bc99050e78534.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wall_spiked_logs.obj-a40cc9ffc0b1a7b9973bc99050e78534.mesh"]
+
+source_file="res://assets/outsourced/3D Leap Land/3D Leap Land/obj/wall_spiked_logs.obj"
+dest_files=["res://.godot/imported/wall_spiked_logs.obj-a40cc9ffc0b1a7b9973bc99050e78534.mesh", "res://.godot/imported/wall_spiked_logs.obj-a40cc9ffc0b1a7b9973bc99050e78534.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

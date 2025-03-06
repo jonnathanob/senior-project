@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cgrrmxq8vbmod"
+path="res://.godot/imported/Prop_Wood_Platform_Narrow_Post.obj-add29bffd3a8db79f56659a5527b097c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Prop_Wood_Platform_Narrow_Post.obj-add29bffd3a8db79f56659a5527b097c.mesh"]
+
+source_file="res://assets/outsourced/modular_platformer_models/Prop_Wood_Platform_Narrow_Post.obj"
+dest_files=["res://.godot/imported/Prop_Wood_Platform_Narrow_Post.obj-add29bffd3a8db79f56659a5527b097c.mesh", "res://.godot/imported/Prop_Wood_Platform_Narrow_Post.obj-add29bffd3a8db79f56659a5527b097c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

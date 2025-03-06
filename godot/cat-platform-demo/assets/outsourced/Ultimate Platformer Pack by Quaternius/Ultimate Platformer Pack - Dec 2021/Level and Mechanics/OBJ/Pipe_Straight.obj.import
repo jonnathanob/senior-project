@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://coi10wk4o2knd"
+path="res://.godot/imported/Pipe_Straight.obj-ab0b4a74c077411fd8d84440553d996e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Pipe_Straight.obj-ab0b4a74c077411fd8d84440553d996e.mesh"]
+
+source_file="res://assets/outsourced/Ultimate Platformer Pack by Quaternius/Ultimate Platformer Pack - Dec 2021/Level and Mechanics/OBJ/Pipe_Straight.obj"
+dest_files=["res://.godot/imported/Pipe_Straight.obj-ab0b4a74c077411fd8d84440553d996e.mesh", "res://.godot/imported/Pipe_Straight.obj-ab0b4a74c077411fd8d84440553d996e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

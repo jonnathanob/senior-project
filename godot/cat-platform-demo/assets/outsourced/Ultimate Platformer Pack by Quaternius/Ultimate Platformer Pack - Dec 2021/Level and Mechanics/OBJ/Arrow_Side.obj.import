@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dydcm5erum1qf"
+path="res://.godot/imported/Arrow_Side.obj-947d75a03df23355b8901ba487463b2d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Arrow_Side.obj-947d75a03df23355b8901ba487463b2d.mesh"]
+
+source_file="res://assets/outsourced/Ultimate Platformer Pack by Quaternius/Ultimate Platformer Pack - Dec 2021/Level and Mechanics/OBJ/Arrow_Side.obj"
+dest_files=["res://.godot/imported/Arrow_Side.obj-947d75a03df23355b8901ba487463b2d.mesh", "res://.godot/imported/Arrow_Side.obj-947d75a03df23355b8901ba487463b2d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

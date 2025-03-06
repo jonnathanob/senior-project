@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cibty0p7mihoe"
+path="res://.godot/imported/fence_open_wide_long.obj-0f2570e4f7c748bdd4a8ca11213458ad.mesh"
+
+[deps]
+
+files=["res://.godot/imported/fence_open_wide_long.obj-0f2570e4f7c748bdd4a8ca11213458ad.mesh"]
+
+source_file="res://addons/tiny_treats_homely_house_set/Assets/obj/fence_open_wide_long.obj"
+dest_files=["res://.godot/imported/fence_open_wide_long.obj-0f2570e4f7c748bdd4a8ca11213458ad.mesh", "res://.godot/imported/fence_open_wide_long.obj-0f2570e4f7c748bdd4a8ca11213458ad.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

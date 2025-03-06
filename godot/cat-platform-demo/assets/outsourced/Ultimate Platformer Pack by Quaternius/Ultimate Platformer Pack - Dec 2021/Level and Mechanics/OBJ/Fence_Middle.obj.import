@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b72jaaimu4hpd"
+path="res://.godot/imported/Fence_Middle.obj-b5720bf31f7bbc97139a55ed14d50e1d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Fence_Middle.obj-b5720bf31f7bbc97139a55ed14d50e1d.mesh"]
+
+source_file="res://assets/outsourced/Ultimate Platformer Pack by Quaternius/Ultimate Platformer Pack - Dec 2021/Level and Mechanics/OBJ/Fence_Middle.obj"
+dest_files=["res://.godot/imported/Fence_Middle.obj-b5720bf31f7bbc97139a55ed14d50e1d.mesh", "res://.godot/imported/Fence_Middle.obj-b5720bf31f7bbc97139a55ed14d50e1d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

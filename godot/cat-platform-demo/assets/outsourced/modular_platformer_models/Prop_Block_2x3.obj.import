@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://drrhk3eu8onmy"
+path="res://.godot/imported/Prop_Block_2x3.obj-f4d9b1c7e23d815e87be91f3fe1ef1d4.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Prop_Block_2x3.obj-f4d9b1c7e23d815e87be91f3fe1ef1d4.mesh"]
+
+source_file="res://assets/outsourced/modular_platformer_models/Prop_Block_2x3.obj"
+dest_files=["res://.godot/imported/Prop_Block_2x3.obj-f4d9b1c7e23d815e87be91f3fe1ef1d4.mesh", "res://.godot/imported/Prop_Block_2x3.obj-f4d9b1c7e23d815e87be91f3fe1ef1d4.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

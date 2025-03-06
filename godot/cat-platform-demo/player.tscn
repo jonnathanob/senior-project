@@ -1,22 +1,37 @@
-[gd_scene load_steps=5 format=3 uid="uid://bsletrehrhexe"]
+[gd_scene load_steps=12 format=3 uid="uid://bsletrehrhexe"]
 
 [ext_resource type="Script" path="res://player.gd" id="1_yysdw"]
-[ext_resource type="PackedScene" uid="uid://drc7tafj77ck2" path="res://cat_1.tscn" id="2_js5yg"]
+[ext_resource type="PackedScene" uid="uid://bd3r3gssg1lpg" path="res://scenes/cat.tscn" id="2_u8d81"]
+[ext_resource type="PackedScene" uid="uid://12k185drjpgg" path="res://health_component.tscn" id="3_mojq3"]
+[ext_resource type="PackedScene" uid="uid://dfwa7drahkwfs" path="res://scenes/death_menu.tscn" id="3_nwn7a"]
+[ext_resource type="PackedScene" uid="uid://c482jmguknled" path="res://scenes/health_bar_2d.tscn" id="4_qxdci"]
+[ext_resource type="PackedScene" uid="uid://tk01sr6lv53r" path="res://scenes/hitbox_component.tscn" id="5_4gyum"]
+[ext_resource type="PackedScene" uid="uid://btgi0bfi7c83d" path="res://scenes/pause_menu.tscn" id="6_a0cag"]
 
-[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_hxrvo"]
-radius = 2.0
-height = 10.0
+[sub_resource type="BoxShape3D" id="BoxShape3D_t36w4"]
+size = Vector3(2.4, 7.2, 4.3)
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_wgink"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_kotgo"]
+size = Vector3(1.7, 1, 2.1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_nmy0e"]
+size = Vector3(1.7, 3.4, 5.5)
+
 [node name="Cat" type="CharacterBody3D"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 0, 0)
+collision_mask = 6
 script = ExtResource("1_yysdw")
 
-[node name="cat1" parent="." instance=ExtResource("2_js5yg")]
-
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
-transform = Transform3D(0.7, 0, 0, 0, -3.0598e-08, -0.7, 0, 0.7, -3.0598e-08, 0, 1, 0)
-shape = SubResource("CapsuleShape3D_hxrvo")
+transform = Transform3D(0.7, 0, 0, 0, -3.0598e-08, -0.7, 0, 0.7, -3.0598e-08, 0.105, 1.225, 0.245)
+shape = SubResource("BoxShape3D_t36w4")
+
+[node name="cat" parent="." instance=ExtResource("2_u8d81")]
+
+[node name="HealthComponent" parent="." instance=ExtResource("3_mojq3")]
+max_health = 50
 
 [node name="CameraPivot" type="Node3D" parent="."]
 unique_name_in_owner = true
@@ -24,9 +39,45 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5, -0.2)
 
 [node name="SpringArm3D" type="SpringArm3D" parent="CameraPivot"]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0)
+collision_mask = 7
 shape = SubResource("SphereShape3D_wgink")
 spring_length = 8.0
 
 [node name="Camera3D" type="Camera3D" parent="CameraPivot/SpringArm3D"]
 unique_name_in_owner = true
 current = true
+
+[node name="DeathMenu" parent="CameraPivot" instance=ExtResource("3_nwn7a")]
+visible = false
+
+[node name="HealthBar2D" parent="CameraPivot" node_paths=PackedStringArray("health_compnent") instance=ExtResource("4_qxdci")]
+health_compnent = NodePath("../../HealthComponent")
+
+[node name="PauseMenu" parent="CameraPivot" instance=ExtResource("6_a0cag")]
+visible = false
+
+[node name="AttackHitbox" parent="." node_paths=PackedStringArray("health_component") instance=ExtResource("5_4gyum")]
+collision_mask = 6
+health_component = NodePath("../HealthComponent")
+disabled = true
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="AttackHitbox"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.05, 1.42857, 2.55)
+shape = SubResource("BoxShape3D_kotgo")
+
+[node name="HitboxComponent2" parent="." node_paths=PackedStringArray("health_component") instance=ExtResource("5_4gyum")]
+collision_mask = 2
+health_component = NodePath("../HealthComponent")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="HitboxComponent2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.1, 1.2, 0.25)
+shape = SubResource("BoxShape3D_nmy0e")
+
+[node name="RayCast3D" type="RayCast3D" parent="."]
+collision_mask = 2
+
+[connection signal="animation_finished" from="cat" to="." method="_on_cat_animation_finished"]
+[connection signal="death" from="HealthComponent" to="." method="_on_health_component_death"]
+[connection signal="restart" from="CameraPivot/DeathMenu" to="." method="_on_pause_menu_restart"]
+[connection signal="resume" from="CameraPivot/PauseMenu" to="." method="_on_pause_menu_resume"]
+[connection signal="area_entered" from="AttackHitbox" to="." method="_on_hitbox_component_area_entered"]
